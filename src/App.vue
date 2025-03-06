@@ -122,7 +122,7 @@ export default {
 
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=b7e695a0717aa258ea55112f629ca8b2`
+          `https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=b_7e695a07_17aa258ea55112f_629ca8b2`
         )
         .then((res) => (this.info = res.data));
     },
